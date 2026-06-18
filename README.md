@@ -57,11 +57,6 @@ See each per-model README for setup, options, and gotchas.
 ## Repo layout
 
 - `app.py` — Qwen2.5-Omni Gradio app (port 7860)
-- `app_qwen3_omni.py` + `qwen3_omni_engine.py` — Qwen3-Omni app + load/inference engine (port 7861)
 - `prompt_qwen2.5_default.txt` — canonical Qwen system prompt (recommended for reliable speech)
 - `prompt_qwen2.5_tier1.txt` — alternate "Tier-1 support agent" persona prompt
 - `requirements_qwen2.5-omni.txt` — frozen deps for the `.venv` (Qwen2.5) environment
-- `history/`, `history_qwen3/` — per-model run history (JSON + saved input/output audio)
-- `inputs/`, `results/`, `offload/`, `backups/` — working dirs (sample I/O, accelerate offload scratch, backups)
-- `test_*.py`, `diagnose.py` — standalone inference/token experiments and environment diagnostics
-- `app_4_bit.py`, `appv1.py`, `qwen3_app.py`, `qwen3_omni_engine_v1.py` — earlier/alternate variants, kept for reference
