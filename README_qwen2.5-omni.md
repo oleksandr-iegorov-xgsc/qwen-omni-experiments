@@ -13,6 +13,8 @@ per-stage timing breakdown and run history.
 Uses [uv](https://docs.astral.sh/uv/) for the environment and dependencies:
 
 ```bash
+git clone https://github.com/oleksandr-iegorov-xgsc/qwen-omni-experiments.git
+cd qwen-omni-experiments
 uv venv .venv
 uv pip install -r requirements_qwen2.5-omni.txt
 ```
